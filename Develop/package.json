@@ -1,0 +1,26 @@
+{
+  "name": "JATE",
+  "version": "1.0.0",
+  "description": "A template for a full stack application using React, Express, Node, and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "start:dev": "concurrently \"npm run server --prefix ./server\" \"npm run dev --prefix ./client\"",
+   "start": "npm run build && cd server && node server.js",
+    "server":"npm run server --prefix ./server",
+    "build": "npm run build --prefix ./client",
+    "install": "npm install --prefix ./client",
+    "client": "npm start --prefix ./client"
+  },
+  "keywords": [],
+  "author": "MJ Christensen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
