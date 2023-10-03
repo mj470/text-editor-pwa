@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       //plugin to generate html file
       new HtmlWebpackPlugin({
-        template: './client/src/index.html',
+        template: './index.html',
         title: 'JATE',
       }),
       new InjectManifest({

@@ -1,0 +1,24 @@
+{
+  "name": "Just Another Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "An application that allows you to input and edit text!",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "images": [
+    {
+      "src": "/Users/marenchristensen/Desktop/bootcamp/text-editor-pwa/Develop/client/src/images/logo.png",
+      "sizes": [
+        96,
+        128,
+        192,
+        256,
+        384,
+        512
+      ],
+      "destination": "assets/images"
+    }
+  ]
+}
